@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="content">
+
+		<h1>Calculator</h1>
+
+		<!-- INPUT (take input from user) -->
+		<div class="input">
+			<input type="number" id="valueOne" value=" " placeholder="Enter value 1">
+			<input type="number" id="valueTwo" value=" " placeholder="Enter value 2">
+		</div>
+
+		<!-- BUTTON  -->
+		<div class="button">
+
+			<!-- add function call -->
+			<button id="add" onclick="add()">ADD+</button>
+			<!-- subtract function call -->
+			<button id="subtract" onclick="subtract()">SUBTRACT-</button>
+			<!-- division function call -->
+			<button id="division" onclick="division()">DIVISON/</button>
+			<!-- multiply function call -->
+			<button id="multiply" onclick="multiply()">MULTIPLY*</button>
+
+		</div>
+
+		<!-- SHOWN output -->
+		<div class="result">
+			<h3>Result: <span id="result">0</span></h3>
+		</div>
+
+	</div>
+
+
+
+	<script src="practice.js"></script>
+</body>
+
+</html>

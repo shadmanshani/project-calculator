@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+h3 {
+	font-size: 3rem;
+}
+
+body {
+	background-color: rgb(234, 234, 233);
+	color: black;
+	text-align: center;
+	/* font-size: 3.5rem; */
+	margin-top: 3rem;
+}
+
+.input {
+	margin-top: 2rem;
+}
+
+input {
+	font-size: 2rem;
+	padding: 1rem 1.5rem;
+	border: 0.4rem solid black;
+}
+
+.button {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+button {
+	font-size: 2rem;
+	padding: 1.5rem 2rem;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	border: 1px dotted white;
+}
+
+.result {
+	margin-top: 4rem;
+}
+
+.content {
+	max-width: 600px;
+	padding: 2rem;
+	border: 0.7rem solid black;
+	margin: auto;
+	background-color: rgb(181, 181, 181)
+}
